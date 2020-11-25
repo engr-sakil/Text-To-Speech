@@ -1,17 +1,7 @@
 from gtts import gTTS
 import os
 
-myText = '''আমার সোনার বাংলা, আমি তোমায় ভালোবাসি।
-চিরদিন তোমার আকাশ, তোমার বাতাস, আমার প্রাণে বাজায় বাঁশি॥
-ও মা, ফাগুনে তোর আমের বনে ঘ্রাণে পাগল করে,
-মরি হায়, হায় রে—
-ও মা, অঘ্রানে তোর ভরা ক্ষেতে আমি কী দেখেছি মধুর হাসি॥
-
-কী শোভা, কী ছায়া গো, কী স্নেহ, কী মায়া গো—
-কী আঁচল বিছায়েছ বটের মূলে, নদীর কূলে কূলে।
-মা, তোর মুখের বাণী আমার কানে লাগে সুধার মতো,
-মরি হায়, হায় রে—
-মা, তোর বদনখানি মলিন হলে, ও মা, আমি নয়নজলে ভাসি॥'''
+myText = '''আমার সোনার বাংলা আমি তোমায় ভালোবাসি চিরদিন  তোমার আকাশ তোমার বাতাস আমার প্রাণে বাজায় বাঁশি'''
 
 language = 'bn'
 
@@ -21,3 +11,63 @@ output.save("output.mp3")
 
 os.system("start output.mp3")
 
+
+languageList =  {'af': 'Afrikaans',
+        'ar': 'Arabic',
+        'bn': 'Bengali',
+        'bs': 'Bosnian',
+        'ca': 'Catalan',
+        'cs': 'Czech',
+        'cy': 'Welsh',
+        'da': 'Danish',
+        'de': 'German',
+        'el': 'Greek',
+        'en': 'English',
+        'eo': 'Esperanto',
+        'es': 'Spanish',
+        'et': 'Estonian',
+        'fi': 'Finnish',
+        'fr': 'French',
+        'gu': 'Gujarati',
+        'hi': 'Hindi',
+        'hr': 'Croatian',
+        'hu': 'Hungarian',
+        'hy': 'Armenian',
+        'id': 'Indonesian',
+        'is': 'Icelandic',
+        'it': 'Italian',
+        'ja': 'Japanese',
+        'jw': 'Javanese',
+        'km': 'Khmer',
+        'kn': 'Kannada',
+        'ko': 'Korean',
+        'la': 'Latin',
+        'lv': 'Latvian',
+        'mk': 'Macedonian',
+        'ml': 'Malayalam',
+        'mr': 'Marathi',
+        'my': 'Myanmar (Burmese)',
+        'ne': 'Nepali',
+        'nl': 'Dutch',
+        'no': 'Norwegian',
+        'pl': 'Polish',
+        'pt': 'Portuguese',
+        'ro': 'Romanian',
+        'ru': 'Russian',
+        'si': 'Sinhala',
+        'sk': 'Slovak',
+        'sq': 'Albanian',
+        'sr': 'Serbian',
+        'su': 'Sundanese',
+        'sv': 'Swedish',
+        'sw': 'Swahili',
+        'ta': 'Tamil',
+        'te': 'Telugu',
+        'th': 'Thai',
+        'tl': 'Filipino',
+        'tr': 'Turkish',
+        'uk': 'Ukrainian',
+        'ur': 'Urdu',
+        'vi': 'Vietnamese',
+        'zh-CN': 'Chinese'
+    }
